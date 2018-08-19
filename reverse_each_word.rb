@@ -1,7 +1,8 @@
 def reverse_each_word (string)
-  sentence = string.split ("")
-  sentence.each do |word|
+  sentence = string.split
+ newsentence = sentence.each do |word|
     word.reverse
   end 
+  return newsentence
 end
 
