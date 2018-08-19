@@ -7,4 +7,5 @@ def reverse_each_word (string)
 end
 
 def reverse_each_word (string)
-  string.split ("")
+  sentence = string.split ("")
+  sentence.collect 
