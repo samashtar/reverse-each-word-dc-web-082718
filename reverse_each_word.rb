@@ -6,3 +6,5 @@ def reverse_each_word (string)
   return newsentence
 end
 
+def reverse_each_word (string)
+  sentence = 
